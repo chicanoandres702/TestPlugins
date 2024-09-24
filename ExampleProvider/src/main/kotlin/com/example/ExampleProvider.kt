@@ -21,7 +21,7 @@ class ExampleProvider :MainAPI() {
     )
 
     override suspend fun getMainPage(page: Int, request : MainPageRequest): HomePageResponse {
-        val numPagesToFetch =  // Or any number of pages you want to fetch
+        val numPagesToFetch = 10 // Or any number of pages you want to fetch
 
         val urls = (1..numPagesToFetch).flatMap { pageNum ->
             listOf(
