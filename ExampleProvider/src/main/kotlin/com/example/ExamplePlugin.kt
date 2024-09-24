@@ -10,11 +10,10 @@ import androidx.appcompat.app.AppCompatActivity
 @CloudstreamPlugin
 class TestPlugin: Plugin() {
     var activity: AppCompatActivity? = null
-
     override fun load(context: Context) {
         activity = context as AppCompatActivity
-        // All providers should be added in this manner
-        registerMainAPI(ExampleProvider(this))
+        //All providers should be added in this manner
+        registerMainAPI(ExampleProvider())
 
         openSettings = { ctx ->
             val frag = BlankFragment(this)
