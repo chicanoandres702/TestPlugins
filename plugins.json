@@ -13,9 +13,9 @@
             "Movie"
         ],
         "version": -1,
-        "internalName": "ExampleProvider",
-        "description": "Lorem ipsum",
+        "internalName": "Pelispedia",
+        "description": "Pelispedia",
         "url": "https://raw.githubusercontent.com/chicanoandres702/TestPlugins/builds/ExampleProvider.cs3",
-        "name": "ExampleProvider"
+        "name": "Pelispedia"
     }
 ]
